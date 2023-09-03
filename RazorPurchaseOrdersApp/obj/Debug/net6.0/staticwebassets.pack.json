@@ -5,6 +5,50 @@
       "PackagePath": "staticwebassets\\RazorPurchaseOrdersApp.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\Daniel\\Documents\\GitHub\\DeliveryWebApp\\RazorPurchaseOrdersApp\\wwwroot\\Images\\BurgerMenu.PNG",
+      "PackagePath": "staticwebassets\\Images\\BurgerMenu.PNG"
+    },
+    {
+      "Id": "C:\\Users\\Daniel\\Documents\\GitHub\\DeliveryWebApp\\RazorPurchaseOrdersApp\\wwwroot\\Images\\Campereada.PNG",
+      "PackagePath": "staticwebassets\\Images\\Campereada.PNG"
+    },
+    {
+      "Id": "C:\\Users\\Daniel\\Documents\\GitHub\\DeliveryWebApp\\RazorPurchaseOrdersApp\\wwwroot\\Images\\Charrua.PNG",
+      "PackagePath": "staticwebassets\\Images\\Charrua.PNG"
+    },
+    {
+      "Id": "C:\\Users\\Daniel\\Documents\\GitHub\\DeliveryWebApp\\RazorPurchaseOrdersApp\\wwwroot\\Images\\Create.PNG",
+      "PackagePath": "staticwebassets\\Images\\Create.PNG"
+    },
+    {
+      "Id": "C:\\Users\\Daniel\\Documents\\GitHub\\DeliveryWebApp\\RazorPurchaseOrdersApp\\wwwroot\\Images\\Fritz.PNG",
+      "PackagePath": "staticwebassets\\Images\\Fritz.PNG"
+    },
+    {
+      "Id": "C:\\Users\\Daniel\\Documents\\GitHub\\DeliveryWebApp\\RazorPurchaseOrdersApp\\wwwroot\\Images\\Garibaldi.PNG",
+      "PackagePath": "staticwebassets\\Images\\Garibaldi.PNG"
+    },
+    {
+      "Id": "C:\\Users\\Daniel\\Documents\\GitHub\\DeliveryWebApp\\RazorPurchaseOrdersApp\\wwwroot\\Images\\LaPlata.PNG",
+      "PackagePath": "staticwebassets\\Images\\LaPlata.PNG"
+    },
+    {
+      "Id": "C:\\Users\\Daniel\\Documents\\GitHub\\DeliveryWebApp\\RazorPurchaseOrdersApp\\wwwroot\\Images\\Lacador.PNG",
+      "PackagePath": "staticwebassets\\Images\\Lacador.PNG"
+    },
+    {
+      "Id": "C:\\Users\\Daniel\\Documents\\GitHub\\DeliveryWebApp\\RazorPurchaseOrdersApp\\wwwroot\\Images\\Macanudo.PNG",
+      "PackagePath": "staticwebassets\\Images\\Macanudo.PNG"
+    },
+    {
+      "Id": "C:\\Users\\Daniel\\Documents\\GitHub\\DeliveryWebApp\\RazorPurchaseOrdersApp\\wwwroot\\Images\\Pampa.PNG",
+      "PackagePath": "staticwebassets\\Images\\Pampa.PNG"
+    },
+    {
+      "Id": "C:\\Users\\Daniel\\Documents\\GitHub\\DeliveryWebApp\\RazorPurchaseOrdersApp\\wwwroot\\Images\\Piratini.PNG",
+      "PackagePath": "staticwebassets\\Images\\Piratini.PNG"
+    },
+    {
       "Id": "C:\\Users\\Daniel\\Documents\\GitHub\\DeliveryWebApp\\RazorPurchaseOrdersApp\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
