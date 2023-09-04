@@ -3,5 +3,46 @@
 @{
 }
 
-@*In the custom burger view we should be able to jumpt to checkout view*@
+@*In the custom burger view we should be able to jump to checkout view*@
 <a class="nav-link text-dark" asp-area="" asp-page="Checkout/Checkout">Checkout</a>
+
+<div class="text-center container">
+    <h1>Create Your Custom Burger</h1>
+
+    @*Be able to POST details that the user has entered in the form*@
+    @*Bootstrap classes are added for styling*@
+    <form method="post" class="mx-auto mt-5 mb-5 px-5 pb-5 rounded-5 bg-light col-4" >
+        <br />
+        @*Assign input text value to attribute of burger model (Burger. object reference) *@
+        <input type="text" asp-for="Burger.Name" placeholder="Create your burgers name"/>
+        <br/>
+
+        <input type="checkbox" asp-for="Burger.HouseSauce" 
+        placeholder="Razor House Sauce" />House Sauce
+        <br/>
+
+        <input type="checkbox" asp-for="Burger.Cheese"
+         placeholder="Cheese" />Cheese
+        <br />
+
+        <input type="checkbox" asp-for="Burger.HouseVeggies"
+               placeholder="Razor house veggies" />House Veggies
+        <br />
+        <input type="checkbox" asp-for="Burger.SingleMeat"
+               placeholder="Add one beef meat" />Single Beef Meat
+        <br />
+        <input type="checkbox" asp-for="Burger.DoubleMeat"
+               placeholder="Add two beef meats" />Double Beef Meat
+        <br />
+        <input type="checkbox" asp-for="Burger.ExtraBacon"
+               placeholder="Add extra bacon" />Extra Bacon
+        <br />
+        <input type="checkbox" asp-for="Burger.RazorVeggieToppings"
+               placeholder="Razor extra veggie toppings" />Razor Veggie Toppings
+        <br />
+
+
+        @*User should be redirected to a different page after submitting*@
+        <button class="btn btn-primary mt-1" type="submit">Place Burger Order</button>
+    </form>
+</div>

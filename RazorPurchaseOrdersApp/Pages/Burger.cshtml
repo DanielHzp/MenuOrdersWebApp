@@ -4,6 +4,36 @@
 }
 
 @*In the burger view we should be able to jump to custom burgers and checkout views*@
-<a class="nav-link text-dark" asp-area="" asp-page="Forms/CustomBurger">CustomBurger</a>
+@*Bootstrap elements layout, some custom classes are invoked from css site.css file for custom styling*@
+<div class="text-center">
+    <div class="customPadding">
+        <h1 class="display-4 text-capitalize text-black">
+            Our awesome selection of burgers!</h1>
+            <h4> Pick one of our razor burgers or build your favorite one! </h4>
+            <h4>Place your order and that's it! No need for additional details</h4>
+            <h4>Your order will be ready in aprox. 15 minutes</h4>
+        <p class="customTextFooter"><i>One burger max. per order</i></p>
+    </div>
 
-<a class="nav-link text-dark" asp-area="" asp-page="Checkout/Checkout">Checkout</a>
+    @*Container layout for the burger menu to display, additional css styling classes for bootstrap are used*@
+    <div class="container">
+        <div class="row">
+            <div class="col-12 mb-5 mt-5">
+                <div class="w-100 row customDiv">
+                    <div class="col-4">
+                        <img src="~/Images/NewCreate.png" class="w-100 h-60"/>
+                    </div>
+                    <div class="col-8 alig-items-center">
+                        <div class="aling-middle customText">
+                            <h3 style="text-align:left;">Create your custom burger</h3>
+                            <p style="text-align:left;">Choose your favorite toppings from our Razor Burger available ingredients</p>
+                        <a class="btn btn-primary" style="float: left" asp-area="" asp-page="Forms/CustomBurger">Razor Burger Maker</a>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+
+
+</div>

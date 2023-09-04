@@ -41,6 +41,10 @@
       "PackagePath": "staticwebassets\\Images\\Macanudo.PNG"
     },
     {
+      "Id": "C:\\Users\\Daniel\\Documents\\GitHub\\DeliveryWebApp\\RazorPurchaseOrdersApp\\wwwroot\\Images\\NewCreate.PNG",
+      "PackagePath": "staticwebassets\\Images\\NewCreate.PNG"
+    },
+    {
       "Id": "C:\\Users\\Daniel\\Documents\\GitHub\\DeliveryWebApp\\RazorPurchaseOrdersApp\\wwwroot\\Images\\Pampa.PNG",
       "PackagePath": "staticwebassets\\Images\\Pampa.PNG"
     },
