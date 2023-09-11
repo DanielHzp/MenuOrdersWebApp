@@ -1,6 +1,18 @@
+using RazorPurchaseOrdersApp.Database;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+
+//Added to set SQL connection context connecting to defaultconnection in appsettings.JSON
+builder.Services.AddDbContext<ContextDBApp>(options =>
+{
+    //builder.config takes us to appsettings SQL connection string created
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
+}
+);
+
 builder.Services.AddRazorPages();
 
 var app = builder.Build();

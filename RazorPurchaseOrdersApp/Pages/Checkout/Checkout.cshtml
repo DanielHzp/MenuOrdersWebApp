@@ -5,4 +5,26 @@
 
 
 @*Inside the checkout view we should be able to jumpt to thank you view*@
-<a class="nav-link text-dark" asp-area="" asp-page="Checkout/ThankYou">ThankYou</a>
+
+@*<a class="nav-link text-dark" asp-area="" asp-page="Checkout/ThankYou">ThankYou</a>  *@
+
+
+<h1>Order Checkout</h1>
+@{
+    //C# embedded in html
+    //Bring selected burger image dynamically
+    var orderImage = "~/Images/" + (@Model.ImageName + ".png");
+}
+<div class="align-content-center">
+    <div class="col-3 mx-auto mb-5">
+        @*Allow page refresh without manual refreshing*@
+        <img src=@orderImage class="w-500 h-500" asp-append-version="true" />
+        <p>Your @Model.burgerName order is almost ready!</p>
+        <p>The total price of your order is: $@Model.BurgerPrice</p>
+        <br/>
+        <a class="btn alert-primary mt-1 mx-auto" asp-area="" asp-page="ThankYou">Place Your Order</a>
+
+    </div>
+
+
+</div>

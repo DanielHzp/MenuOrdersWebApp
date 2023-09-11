@@ -2,9 +2,9 @@
 {
     public class BurgersModel
     {
-        public string ImageTitle { get; set; }   
+        public string? ImageTitle { get; set; }   
 
-        public string Name { get; set; }
+        public string? Name { get; set; }
 
         public float UnitPrice { get; set; } = 5;
 

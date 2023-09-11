@@ -31,7 +31,21 @@
                         </div>
                     </div>
                     </div>
-                </div>
+                </div>              
+                @foreach(var burgerIndex in Model.menuDatabase)
+                {
+                var setBurgerImage = "/Images/" + (burgerIndex.ImageTitle + ".PNG");
+
+                    <div class="col-4 mb-5">
+                         @*With asp-append we make sure data is refreshed automatically*@
+                        <img src="@setBurgerImage" class="w-100 h-60" asp-append="true" />
+                         @*Create a link of type button for each possible order*@
+                    @*We use asp-route-checkoutAttribute to map data of the selected burger to the attributes in checkout page model*@
+                         <a class="btn btn-primary mt-1" asp-area="" asp-page="Checkout/checkout"
+                       asp-route-burgerName="@burgerIndex.Name" asp-route-ImageName="@burgerIndex.ImageTitle" asp-route-BurgerPrice="@burgerIndex.FinalPrice">Order now!</a>
+                         <br/>
+                     </div>
+                }
         </div>
     </div>
 

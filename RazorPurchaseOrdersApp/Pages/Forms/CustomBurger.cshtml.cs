@@ -8,7 +8,7 @@ namespace RazorPurchaseOrdersApp.Pages.Forms
     //View model
     public class CustomBurgerModel : PageModel
     {
-        //Data binding between burger model and custom burger razor page view
+        //Data binding between custom burger model and custom burger razor page view
 
         [BindProperty]
 
