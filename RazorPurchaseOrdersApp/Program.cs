@@ -6,6 +6,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 
 //Added to set SQL connection context connecting to defaultconnection in appsettings.JSON
+//We can use the dependency injection to use AddDbContext in view model of razor pages
 builder.Services.AddDbContext<ContextDBApp>(options =>
 {
     //builder.config takes us to appsettings SQL connection string created

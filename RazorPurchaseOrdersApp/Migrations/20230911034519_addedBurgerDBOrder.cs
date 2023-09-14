@@ -8,6 +8,10 @@ namespace RazorPurchaseOrdersApp.Migrations
     public partial class addedBurgerDBOrder : Migration
     {
         /// <inheritdoc />
+        
+        // Migrations consist of two methods
+        //Migrations help understand how the database evolves over time
+
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(

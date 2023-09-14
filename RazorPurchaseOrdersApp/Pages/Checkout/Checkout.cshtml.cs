@@ -23,11 +23,11 @@ namespace RazorPurchaseOrdersApp.Pages.Checkout
 
 
 
-        //Create constructor
+        //Create constructor to inject via dependency injection
         public CheckoutModel(ContextDBApp context)
         {
             //Context is the value of the dependency injection
-            _currentContext = context;
+            _currentContext = context;  //Context represents our database
         }
 
         //Get data
@@ -41,15 +41,24 @@ namespace RazorPurchaseOrdersApp.Pages.Checkout
             {
                 ImageName = "Create";
             }
-
+            //Every services declared in program.cs will be provided by dependency injection
             //BurgerDBOrder contains the data model database attributes
             BurgerDBOrder burgerOrderObject=new BurgerDBOrder(); ;
 
+            //Assign values from current page model to database class attributes
             burgerOrderObject.BurgerDBName= burgerName;
 
             burgerOrderObject.FinalDBPrice = BurgerPrice;
 
-           // _currentContext.
+            // Entity framework automatically creates primary key
+            //Save burger order object in entity of instance of our database:
+
+            _currentContext.MenuOrders.Add(burgerOrderObject);
+            _currentContext.SaveChanges();
+
+
+
+
 
 
         }
