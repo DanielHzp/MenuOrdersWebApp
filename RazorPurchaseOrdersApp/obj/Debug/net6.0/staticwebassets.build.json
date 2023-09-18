@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "cGgMoGQ2QxzCR1G39c+1kK6WiUfPPfZK6KDML6uGXqw=",
+  "Hash": "GOe2ZFbcJGKDYTlXuAdleKVD0kKt3jOTRhoUVYm0XzE=",
   "Source": "RazorPurchaseOrdersApp",
   "BasePath": "_content/RazorPurchaseOrdersApp",
   "Mode": "Default",
@@ -253,6 +253,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\NewCreate.PNG"
+    },
+    {
+      "Identity": "C:\\Users\\Daniel\\Documents\\GitHub\\DeliveryWebApp\\RazorPurchaseOrdersApp\\wwwroot\\Images\\OrdersDatabasePage.PNG",
+      "SourceId": "RazorPurchaseOrdersApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Daniel\\Documents\\GitHub\\DeliveryWebApp\\RazorPurchaseOrdersApp\\wwwroot\\",
+      "BasePath": "_content/RazorPurchaseOrdersApp",
+      "RelativePath": "Images/OrdersDatabasePage.PNG",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\OrdersDatabasePage.PNG"
     },
     {
       "Identity": "C:\\Users\\Daniel\\Documents\\GitHub\\DeliveryWebApp\\RazorPurchaseOrdersApp\\wwwroot\\Images\\Pampa.PNG",

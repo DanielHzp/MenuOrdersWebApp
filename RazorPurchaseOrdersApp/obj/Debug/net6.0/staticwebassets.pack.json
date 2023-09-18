@@ -45,6 +45,10 @@
       "PackagePath": "staticwebassets\\Images\\NewCreate.PNG"
     },
     {
+      "Id": "C:\\Users\\Daniel\\Documents\\GitHub\\DeliveryWebApp\\RazorPurchaseOrdersApp\\wwwroot\\Images\\OrdersDatabasePage.PNG",
+      "PackagePath": "staticwebassets\\Images\\OrdersDatabasePage.PNG"
+    },
+    {
       "Id": "C:\\Users\\Daniel\\Documents\\GitHub\\DeliveryWebApp\\RazorPurchaseOrdersApp\\wwwroot\\Images\\Pampa.PNG",
       "PackagePath": "staticwebassets\\Images\\Pampa.PNG"
     },

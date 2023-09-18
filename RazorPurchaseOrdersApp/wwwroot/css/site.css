@@ -1,5 +1,5 @@
 html {
-  font-size: 20px;
+  font-size: 25px;
 }
 
 @media (min-width: 768px) {
@@ -24,7 +24,7 @@ body {
 .startImgStyle{
     border-radius: 20px;
     filter: drop-shadow(0px 0px 10px rgba(0,0,0,0.3));
-    margin: 40px;
+    margin: 20px;
 }
 
 .subtitleStyle{
@@ -51,3 +51,9 @@ body {
 
 
 }
+
+
+.OrderSelect :hover{
+    transform: scale(1.35);
+}
+

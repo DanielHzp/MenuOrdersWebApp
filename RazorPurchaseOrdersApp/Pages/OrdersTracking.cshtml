@@ -1,0 +1,43 @@
+﻿@page
+@model RazorPurchaseOrdersApp.Pages.Orders_TrackingModel
+@{
+}
+@*Use bootstrap to display database context called tables*@
+<h3>Menu Orders</h3>
+
+<hr />
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Id
+            </th>
+            <th>
+                BurgerDBName
+
+            </th>
+            <th>
+                FinalDBPrice
+            </th>
+
+        </tr>
+    </thead>
+    <tbody>
+        @*Populate rows of each column, keeping column order*@
+        @foreach(var indexOrder in Model.OrdersHistory ){
+        <tr>
+            <td>
+                @indexOrder.Id
+            </td>
+            <td>
+                @indexOrder.BurgerDBName
+            </td>
+
+            <td>
+                @indexOrder.FinalDBPrice
+            </td>
+        </tr>
+        }
+    </tbody>
+</table>
