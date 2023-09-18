@@ -1,7 +1,7 @@
 # Menu Orders ASP.NET Core Web App
 
 
-Restaurant orders web app developed with ASP.NET Core Razor pages (server side) and Entity Framework Core. It consists of 7 pages with a SQL server connection to read and write purchase orders real-time data. The user views are created using C# embedded in html with some simple CSS bootstrap custom classes, and all data bindings are executed with post (create new order) and get (retrieve orders data) endpoints. Additionally, data is sent and retrieved from the database dynamically using dependency injections with inherited SQL constructors/properties.
+Restaurant orders web app developed with ASP.NET Core Razor pages (server side) and Entity Framework Core. It consists of 7 pages with a SQL server connection to read and write purchase orders data. The user views are created using C# embedded in html with some simple CSS bootstrap custom classes, and all data bindings are executed with post (create new order) and get (retrieve orders data) endpoints. Additionally, data is sent and retrieved from the database dynamically using dependency injections with inherited SQL constructors/properties.
 
 
 ## Usage
