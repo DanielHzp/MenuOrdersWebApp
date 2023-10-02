@@ -23,7 +23,11 @@ It is neccesary to execute database migrations if the data models change or the 
 
 <br/>
 
+<br/>
+
 <img src="/Source/wwwroot/Images/BurgerSelectorPage.PNG" width="500" height="500">
+
+<br/>
 
 <br/>
 
