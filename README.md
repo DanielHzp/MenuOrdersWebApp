@@ -11,3 +11,10 @@ Clone the repository in VS and install the database context entity framework cor
 3. Entity framework core tools 7.0.10
 
 It is neccesary to execute database migrations if the data models change or the database context classes are modified. This can be done in the package manager console with the following command: ad-migration MigrationCustomName.
+
+## Layout
+<img src="/Source/Images/MenuPage.png" width="700" height="450">
+
+<br/>
+
+<img src="/Source/Images/BurgerSelectorPage.png" width="700" height="450">
