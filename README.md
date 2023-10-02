@@ -17,35 +17,35 @@ It is neccesary to execute database migrations if the data models change or the 
 
 <br/>
 
-<img src="/Source/wwwroot/Images/MenuPage.PNG" width="700" height="450">
+<img src="/Source/wwwroot/Images/MenuPage.PNG" width="500" height="500">
 
 <br/>
 
 <br/>
 
-<img src="/Source/wwwroot/Images/BurgerSelectorPage.PNG" width="700" height="450">
+<img src="/Source/wwwroot/Images/BurgerSelectorPage.PNG" width="500" height="500">
 
 <br/>
 
 <br/>
 
-<img src="/Source/wwwroot/Images/CheckoutPage.PNG" width="700" height="450">
+<img src="/Source/wwwroot/Images/CheckoutPage.PNG" width="500" height="500">
 
 <br/>
 
 <br/>
 
-<img src="/Source/wwwroot/Images/CustomOrderPage.PNG" width="700" height="450">
+<img src="/Source/wwwroot/Images/CustomOrderPage.PNG" width="500" height="500">
 <br/>
 
 <br/>
 
-<img src="/Source/wwwroot/Images/CustomOrderCheckoutPage.PNG" width="700" height="450">
+<img src="/Source/wwwroot/Images/CustomOrderCheckoutPage.PNG" width="500" height="500">
 <br/>
 
 <br/>
 
-<img src="/Source/wwwroot/Images/OrdersDatabasePage.PNG" width="700" height="450">
+<img src="/Source/wwwroot/Images/OrdersDatabasePage.PNG" width="500" height="500">
 
 
 
