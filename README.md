@@ -13,8 +13,39 @@ Clone the repository in VS and install the database context entity framework cor
 It is neccesary to execute database migrations if the data models change or the database context classes are modified. This can be done in the package manager console with the following command: ad-migration MigrationCustomName.
 
 ## Layout
+<br/>
+
+<br/>
+
 <img src="/Source/wwwroot/Images/MenuPage.PNG" width="700" height="450">
 
 <br/>
 
+<br/>
+
 <img src="/Source/wwwroot/Images/BurgerSelectorPage.PNG" width="700" height="450">
+
+<br/>
+
+<br/>
+
+<img src="/Source/wwwroot/Images/CheckoutPage.PNG" width="700" height="450">
+
+<br/>
+
+<br/>
+
+<img src="/Source/wwwroot/Images/CustomOrderPage.PNG" width="700" height="450">
+<br/>
+
+<br/>
+
+<img src="/Source/wwwroot/Images/CustomOrderCheckoutPage.PNG" width="700" height="450">
+<br/>
+
+<br/>
+
+<img src="/Source/wwwroot/Images/OrdersDatabasePage.PNG" width="700" height="450">
+
+
+
